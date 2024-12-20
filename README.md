@@ -1,4 +1,4 @@
-# Federated_Learning_for_Autonomous_Driving
+# Federated Learning for Autonomous Driving
 
 ## Project Overview
 This repository contains the implementation and analysis of key aspects of **Federated Learning (FL)** applied to autonomous driving. The project focuses on developing privacy-preserving models for edge devices like autonomous vehicles while addressing challenges such as domain shifts, statistical heterogeneity, and unlabeled client data. This project was completed by Valerio Mastrianni, Lal Akin and Riccardo Zanchetta.
@@ -54,7 +54,7 @@ Conceptual overviews are provided for:
 
 ---
 
-## 🛠️ Tools and Techniques
+## Tools and Techniques
 - **Python**:
   - `PyTorch`, `NumPy`, `Matplotlib`: For model training, data handling, and visualization.
 - **Deep Learning Frameworks**:
@@ -66,17 +66,10 @@ Conceptual overviews are provided for:
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 - **Centralized Baseline**:
   - Achieved best mIoU: **0.643** with random cropping.
 - **Supervised Federated Learning**:
   - Best performance: **0.622 mIoU** with 8 clients per round.
 - **YOLOv8 Ensemble Learning**:
   - Enhanced segmentation and object detection, especially for critical classes.
-
-## 🚀 How to Run
-
-### **Step 1: Centralized Baseline**
-1. Navigate to the `centralized_baseline/` folder:
-   ```bash
-   cd centralized_baseline
